@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Explora');
+  
+body{
+    height: 100vh;
+    display: grid;
+   align-content: space-between;
+   justify-items: center;
+   text-align: center;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   background-image: linear-gradient(to right top, #3565ab,  #bf2c2c, #a33419 40%, #eba912);
+   font-family: 'Explora', cursive;
+   font-weight: bolder;
+   letter-spacing: 5px;
+}
+h1{
+    font-size: 7vw;
+    line-height: 20px;
+}
+select{
+display: block;
+width: 500px;
+height: 50px;
+border-radius: 20px;
+text-align: center;
+font-size: 3vw;
+outline: none;
+font-family: 'Explora', cursive;
+font-weight: bolder;
+letter-spacing: 5px;
+
+}
+option{
+font-size: inherit;
+font-weight: bolder;  
+background: #5f80b280;
+
+}
+select::-webkit-scrollbar{
+    background-color:#bf2c2c ;
+    width: 10px;
+    
+}
+select::-webkit-scrollbar-thumb{
+    background-color:#3564abe5 ;
+    border-radius: 5px;
+}
+
+.content div{
+height: 70%;
+display: none;
+margin-bottom: 10px;
+}
+.content img{
+width: 500px;
+height: 500px;
+object-fit: cover;
+}
+.content span{
+color: blue;
+}
